@@ -1,0 +1,33 @@
+
+
+README
+
+This is the README file for a tiny text mining suite of software used to measure the virtue of scientists. For the quick & dirty, open etc/frequencies.xslx and notice how Aristotle's Ethics is -- relatively speaking -- the "most virtuous". Then open sentences/aristotle-ethics.html to see why.
+
+The goal of this project is to find (and possibly measure) virtuous passages written by or about scientists. To date, the process to accomplish this goal is to:
+
+  1. identify works written by or about famous scientists
+  2. obtain such works
+  3. clean up the works making them amenable for text processing
+  4. create a list of words -- a dictionary -- denoting virtuousness
+  5. loop through each work tabulating each word's frequency and ratio compared to document size
+  6. search & sort the resulting report for interesting candidates
+  7. identify possible works of interest through scanning
+  8. read, in detail, works of interest
+
+I have been able to do Steps #1 through #5 using a tiny corpus of materials written by Aristotle and Darwin. Please take a look at frequencies.xslx to do Step #6. 
+
+In the folder/directory named "sentences" is a list of HTML files. Each file contains the sentences containing virtuous words of their corresponding works. The purpose of these files is to see how the virtuous words are used in context.
+
+It is now time to enhance our iterative and investigative process by:
+
+  1. identifying additional works
+  2. creating a bibliography keeping track of the items in our corpus
+  2. enhancing our dictionary to take advantage of "stemming" and synonyms
+  
+'Make sense?
+
+-- 
+Eric Morgan
+June 19, 2015
+

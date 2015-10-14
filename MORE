@@ -1,0 +1,18 @@
+If I remember correctly, it is written entirely in Bash. Here’s how to run it:
+
+  1. build and maintain your set of synonyms by editing ./etc/lexicon.txt
+
+  2. build an maintain your corpus by adding plain text files to ./corpus,
+     and it is best to name them with the author’s last name and then
+     an identifying word from the title
+
+  3. run ./bin/analyze.sh to read your entire corpus and output
+     a matrix to STDOUT of identifiers and frequencies (both raw and
+     relative) of words in the lexicon, and then import this
+     file into your favorite spreadsheet program for analysis
+
+  4. run ./bin/search2sentences.sh to create sets of HTML files of
+     sentences containing words in the lexicon, and the outputs
+     ought to go to ./sentences
+
+Be forewarned. The Bash scripts use grep to find words, which is rather brain-dead.

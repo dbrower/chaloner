@@ -1,0 +1,16 @@
+character	temperament	disposition	personality
+clarity	certainty	lucidity	precision
+cooperation	collaboration	teamwork	partnership
+creativity	imagination	ingenuity	inventiveness
+discernment	judgement	acumen	understand
+empathy	sympathy	compassion	rapport
+humility	humble	modesty
+innovation	advance	improve
+inquiry	question	query
+integrity	honesty	truth	veracity	reliability
+open-mindedness	tolerant	impartial
+purposefulness	thoughtful	consideration	care
+respect	esteem	regard	recognition
+reverence	veneration	worship
+service	assist	help	duty
+wonder	marvel	awe
